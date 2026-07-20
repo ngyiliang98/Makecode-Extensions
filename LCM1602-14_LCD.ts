@@ -54,7 +54,7 @@ const FOURBITMODE = 0X00;
 namespace LCD_i2c  
 { 
     let addrs: number 
-    var lock: boolean
+    let lock: boolean
 
     //% blockId="I2C_LCM1602_LCD_INITIALIZE" block="LCD Initialize with Address %Addr" 
     //% weight=100 blockGap=8 
